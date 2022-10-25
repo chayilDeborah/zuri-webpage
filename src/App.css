@@ -11,4 +11,41 @@
 font-size: 20px;
 line-height: 30px;
 font-family: 'Inter';
+margin-bottom: 56px;
+}
+.links-section {
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+.link-background {
+  background: #EAECF0;
+  border-radius: 8px;
+  width: 1152px;
+  height: 76px;
+  text-align: center;
+  display: flex;
+justify-content: center;
+margin-bottom: 24px;
+border: 1px solid #EAECF0;
+}
+#twitter {
+color: #101828;
+text-decoration: none;
+align-items: center;
+padding-top: 24px;
+font-weight: 500;
+font-size: 18px;
+line-height: 28px;
+}
+#btn__zuri {
+  color: #101828;
+text-decoration: none;
+align-items: center;
+padding-top: 24px;
+font-weight: 500;
+font-size: 18px;
+line-height: 28px;
 }

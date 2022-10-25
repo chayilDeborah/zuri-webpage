@@ -1,4 +1,6 @@
 import profile_img from "../assets/profile_img.svg";
+import slack from "../assets/slack.svg";
+import github from '../assets/github.svg';
 
 const Home = () => {
   return (
@@ -8,12 +10,20 @@ const Home = () => {
         <div className="name">Olamide Deborah</div>
         <div className="links-section">
           <div className="link-background">
-            <a href="https://twitter.com/OlamideTehillah" className="links" id="twitter">
+            <a
+              href="https://twitter.com/OlamideTehillah"
+              className="links"
+              id="twitter"
+            >
               Twitter Link
             </a>
           </div>
           <button className="link-background">
-            <a href="https://training.zuri.team/" className="links" id="btn__zuri">
+            <a
+              href="https://training.zuri.team/"
+              className="links"
+              id="btn__zuri"
+            >
               Zuri Team
             </a>
           </button>
@@ -23,16 +33,32 @@ const Home = () => {
             </a>
           </button>
           <button className="link-background">
-            <a href=" https://books.zuri.team/python-for-beginners?ref_id=<yourslackname>" className="links" id="book__python">
+            <a
+              href=" https://books.zuri.team/python-for-beginners?ref_id=<yourslackname>"
+              className="links"
+              id="book__python"
+            >
               Python Books
             </a>
           </button>
           <button className="link-background">
-            <a href=" http://books.zuri.team" className="links" id="books">
-            Background Check for Coders
+            <a href="https://background.zuri.team" className="links" id="books">
+              Background Check for Coders
             </a>
           </button>
-
+          <button className="link-background">
+            <a
+              href="https://books.zuri.team/design-rules"
+              className="links"
+              id="book__design"
+            >
+              Design Books
+            </a>
+          </button>
+          <div className="logo-section">
+            <img src={slack} alt="slack_img" className="slack" />
+            <img src={github} alt="github_img" className="github" />
+          </div>
         </div>
       </div>
     </>

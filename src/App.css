@@ -1,4 +1,14 @@
 .home {
-  color: red;
-  background-color: aqua;
+ text-align: center;
+ margin-top: 64px;
+}
+.profile_img {
+ margin-bottom: 24px;
+}
+.name {
+  color: #101828;
+  font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+font-family: 'Inter';
 }

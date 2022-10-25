@@ -27,11 +27,11 @@ const Home = () => {
               Python Books
             </a>
           </button>
-          {/* <button className="link-background">
+          <button className="link-background">
             <a href=" http://books.zuri.team" className="links" id="books">
             Background Check for Coders
             </a>
-          </button> */}
+          </button>
 
         </div>
       </div>

@@ -18,7 +18,7 @@ margin-bottom: 56px;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-
+font-family: 'Inter';
 }
 .link-background {
   background: #EAECF0;
@@ -31,21 +31,23 @@ justify-content: center;
 margin-bottom: 24px;
 border: 1px solid #EAECF0;
 }
-#twitter {
-color: #101828;
-text-decoration: none;
+.links {
+  color: #101828;
+  text-decoration: none;
 align-items: center;
 padding-top: 24px;
-font-weight: 500;
-font-size: 18px;
 line-height: 28px;
+font-size: 18px;
+}
+#twitter {
+font-weight: 500;
 }
 #btn__zuri {
-  color: #101828;
-text-decoration: none;
-align-items: center;
-padding-top: 24px;
-font-weight: 500;
-font-size: 18px;
-line-height: 28px;
+font-weight: 600;
+}
+#books {
+  font-weight: 600;
+}
+#book__python {
+  font-weight: 600;
 }

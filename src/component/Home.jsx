@@ -1,6 +1,6 @@
 import profile_img from "../assets/profile_img.svg";
 import slack from "../assets/slack.svg";
-import github from '../assets/github.svg';
+import github from "../assets/github.svg";
 
 const Home = () => {
   return (
@@ -55,9 +55,14 @@ const Home = () => {
               Design Books
             </a>
           </button>
-          <div className="logo-section">
-            <img src={slack} alt="slack_img" className="slack" />
-            <img src={github} alt="github_img" className="github" />
+          <div className='logo-div'>
+            <div className="logo-section">
+              <img src={slack} alt="slack_img" className="slack" />
+              <img src={github} alt="github_img" className="github" />
+            </div>
+          </div>
+          <div className="footer">
+            <div className="footer-div"></div>
           </div>
         </div>
       </div>

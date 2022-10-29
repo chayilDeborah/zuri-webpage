@@ -58,11 +58,17 @@ font-weight: 600;
 #book__design {
   font-weight: 600;
 }
+.logo-div {
+  height: 72px;
+  width: 82%;
+  background: #FFFFFF;
+  border: 1px solid red;
+}
 .logo-section {
-  display: flex;
+  /* display: flex;
   align-items: center;
-text-align: center;
-margin-top: 25px;
+  text-align: center; */
+padding: 24px 0 24px 0;
 }
 .slack {
   width: 24px;
@@ -72,4 +78,17 @@ height: 24px;
   width: 24px;
 height: 24px;
 margin-left: 24px;
+}
+.footer {
+  width: 100%;
+  height: auto;
+  margin-top: 64px;
+  border: 1px solid red;
+}
+.footer-div {
+  width: 1440px;
+  height: 64px;
+  margin: 48px 0 48px 0;
+  border: 1px solid green;
+
 }

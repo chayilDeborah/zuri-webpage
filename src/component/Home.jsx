@@ -1,7 +1,8 @@
 import profile_img from "../assets/profile_img.svg";
 import slack from "../assets/slack.svg";
 import github from "../assets/github.svg";
-
+import zuri from "../assets/zuri.svg";
+import I4G from '../assets/I4G.svg';
 const Home = () => {
   return (
     <>
@@ -15,7 +16,7 @@ const Home = () => {
               className="links"
               id="twitter"
             >
-              Twitter Link
+              Olamide Tehillah
             </a>
           </div>
           <button className="link-background">
@@ -55,14 +56,22 @@ const Home = () => {
               Design Books
             </a>
           </button>
-          <div className='logo-div'>
+          <div className="logo-div">
             <div className="logo-section">
-              <img src={slack} alt="slack_img" className="slack" />
+             <a ><img src={slack} alt="slack_img" className="slack" /></a>
               <img src={github} alt="github_img" className="github" />
             </div>
           </div>
           <div className="footer">
-            <div className="footer-div"></div>
+            <div className="footer-div">
+              <div className="footer-items">
+                <img src={zuri} alt="zuri" className="zuri-svg" />
+                <div className="hng-text">
+                  <div>HNG Internship 9 Frontend Task</div>
+                </div>
+                <img src={I4G} alt='i4g' />
+              </div>
+            </div>
           </div>
         </div>
       </div>

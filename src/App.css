@@ -1,9 +1,30 @@
 .home {
  text-align: center;
- margin-top: 64px;
+
+}
+.img-flex {
+  display: flex;
+  justify-content: space-around;
 }
 .profile_img {
  margin-bottom: 24px;
+ margin-top: 64px;
+ margin-left: 475px;
+}
+.share-div {
+  width: 40px;
+  height: 40px;
+  border: 1px dashed #D0D5DD;
+  border-radius: 20px;
+  margin-top: 44px;
+  text-align: center;
+  cursor: pointer;
+}
+.share-div:hover {
+  background: #D0D5DD;
+}
+.share-img {
+  padding: 12px;
 }
 .name {
   color: #101828;
@@ -62,7 +83,7 @@ font-weight: 600;
   height: 72px;
   width: 82%;
   background: #FFFFFF;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 .logo-section {
   /* display: flex;
@@ -83,12 +104,34 @@ margin-left: 24px;
   width: 100%;
   height: auto;
   margin-top: 64px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
+  text-align: left;
 }
 .footer-div {
-  width: 1440px;
+  width: 88%;
   height: 64px;
-  margin: 48px 0 48px 0;
-  border: 1px solid green;
+  margin: 48px 0 48px 80px;
+  /* border: 1px solid green; */
 
+}
+.footer-items {
+  display: flex;
+  flex-direction: row;
+  border-top: 1px solid #EAECF0;
+  padding-top: 38.98px;
+}
+
+.hng-text {
+  width: 100%;
+  max-width: 832.28px;
+  max-height: 24px;
+height: 100%;
+/* border: 1px solid green; */
+text-align: center;
+font-family: 'Inter';
+color: #667085;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+margin: 0 33.2px 0 32px;
 }

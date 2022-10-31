@@ -1,13 +1,20 @@
 import profile_img from "../assets/profile_img.svg";
 import slack from "../assets/slack.svg";
+import share from "../assets/share.svg";
 import github from "../assets/github.svg";
 import zuri from "../assets/zuri.svg";
-import I4G from '../assets/I4G.svg';
+import I4G from "../assets/I4G.svg";
+
 const Home = () => {
   return (
     <>
       <div className="home">
-        <img className="profile_img" src={profile_img} alt="profile_img" />
+        <div className="img-flex">
+          <img className="profile_img" src={profile_img} alt="profile_img" />
+          <div className="share-div">
+            <img className="share-img" src={share} alt="share-svg" />
+          </div>
+        </div>
         <div className="name">Olamide Deborah</div>
         <div className="links-section">
           <div className="link-background">
@@ -52,13 +59,16 @@ const Home = () => {
               href="https://books.zuri.team/design-rules"
               className="links"
               id="book__design"
+              hh
             >
               Design Books
             </a>
           </button>
           <div className="logo-div">
             <div className="logo-section">
-             <a ><img src={slack} alt="slack_img" className="slack" /></a>
+              <a>
+                <img src={slack} alt="slack_img" className="slack" />
+              </a>
               <img src={github} alt="github_img" className="github" />
             </div>
           </div>
@@ -69,7 +79,7 @@ const Home = () => {
                 <div className="hng-text">
                   <div>HNG Internship 9 Frontend Task</div>
                 </div>
-                <img src={I4G} alt='i4g' />
+                <img src={I4G} alt="i4g" />
               </div>
             </div>
           </div>

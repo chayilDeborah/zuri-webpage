@@ -26,7 +26,7 @@
   padding: 12px;
 }
 .dots-img {
-  visibility:hidden;
+  display: none;
 }
 .name {
   color: #101828;
@@ -147,7 +147,8 @@
     display: none;
   }
   .dots-img {
-padding-top: 19.17px;
+    display: block;
+padding: 19.17px 0 0 12px;
   }
   .name {
     width: 100%;

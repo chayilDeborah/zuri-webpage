@@ -85,7 +85,7 @@ const Home = () => {
                 <div className="hng-text">
                   <div>HNG Internship 9 Frontend Task</div>
                 </div>
-                <img src={I4G} alt="i4g" />
+                <img src={I4G} alt="i4g" className="i4g"/>
               </div>
             </div>
           </div>

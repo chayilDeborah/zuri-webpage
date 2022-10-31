@@ -1,77 +1,79 @@
 .home {
- text-align: center;
-
+  text-align: center;
 }
 .img-flex {
   display: flex;
   justify-content: space-around;
 }
 .profile_img {
- margin-bottom: 24px;
- margin-top: 64px;
- margin-left: 475px;
+  margin-bottom: 24px;
+  margin-top: 64px;
+  margin-left: 395px;
 }
 .share-div {
   width: 40px;
   height: 40px;
-  border: 1px dashed #D0D5DD;
+  border: 1px dashed #d0d5dd;
   border-radius: 20px;
   margin-top: 44px;
   text-align: center;
   cursor: pointer;
 }
 .share-div:hover {
-  background: #D0D5DD;
+  background: #d0d5dd;
 }
 .share-img {
   padding: 12px;
 }
+.dots-img {
+  visibility:hidden;
+}
 .name {
   color: #101828;
   font-weight: 700;
-font-size: 20px;
-line-height: 30px;
-font-family: 'Inter';
-margin-bottom: 56px;
+  font-size: 20px;
+  line-height: 30px;
+  font-family: "Inter";
+  margin-bottom: 56px;
 }
 .links-section {
   display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-font-family: 'Inter';
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter";
 }
 .link-background {
-  background: #EAECF0;
+  background: #eaecf0;
   border-radius: 8px;
   width: 1152px;
   height: 76px;
   text-align: center;
   display: flex;
-justify-content: center;
-margin-bottom: 24px;
-border: 1px solid #EAECF0;
-cursor: pointer;
+  justify-content: center;
+  margin-bottom: 24px;
+  border: 1px solid #eaecf0;
+  cursor: pointer;
 }
 .link-background:hover {
-  background: #D0D5DD;
+  background: #d0d5dd;
 }
 .links {
   color: #101828;
   text-decoration: none;
-align-items: center;
-padding-top: 24px;
-line-height: 28px;
-font-size: 18px;
+  align-items: center;
+  padding-top: 24px;
+  line-height: 28px;
+  font-size: 18px;
 }
 #twitter {
-font-weight: 500;
+  font-weight: 500;
 }
 #slack {
   display: none;
 }
 #btn__zuri {
-font-weight: 600;
+  font-weight: 600;
 }
 #pitch {
   font-weight: 600;
@@ -85,23 +87,23 @@ font-weight: 600;
 .logo-div {
   height: 72px;
   width: 82%;
-  background: #FFFFFF;
+  background: #ffffff;
   /* border: 1px solid red; */
 }
 .logo-section {
   /* display: flex;
   align-items: center;
   text-align: center; */
-padding: 24px 0 24px 0;
+  padding: 24px 0 24px 0;
 }
 .slack {
   width: 24px;
-height: 24px;
+  height: 24px;
 }
 .github {
   width: 24px;
-height: 24px;
-margin-left: 24px;
+  height: 24px;
+  margin-left: 24px;
 }
 .footer {
   width: 100%;
@@ -114,13 +116,11 @@ margin-left: 24px;
   width: 88%;
   height: 64px;
   margin: 48px 0 48px 80px;
-  /* border: 1px solid green; */
-
 }
 .footer-items {
   display: flex;
   flex-direction: row;
-  border-top: 1px solid #EAECF0;
+  border-top: 1px solid #eaecf0;
   padding-top: 38.98px;
 }
 
@@ -128,13 +128,45 @@ margin-left: 24px;
   width: 100%;
   max-width: 832.28px;
   max-height: 24px;
-height: 100%;
-/* border: 1px solid green; */
-text-align: center;
-font-family: 'Inter';
-color: #667085;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-margin: 0 33.2px 0 32px;
+  height: 100%;
+  text-align: center;
+  font-family: "Inter";
+  color: #667085;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0 33.2px 0 32px;
+}
+@media screen and (min-width: 375px) and (max-width: 576px) {
+  /* .links-section {
+    display: none;
+  } */
+  .profile_img {
+    margin-left: 110px;
+  }
+  .img-flex {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+  }
+  .share-img {
+    display: none;
+  }
+  .dots-img {
+padding-top: 19.17px;
+  }
+  .name {
+    width: 100%;
+  }
+  .links-section {
+    width: 100%;
+  }
+  .link-background {
+    width: 343px;
+height: 68px;
+  }
+  .footer {
+    display: none;
+    /* width: 100%; */
+  }
 }

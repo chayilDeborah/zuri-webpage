@@ -4,7 +4,7 @@ import share from "../assets/share.svg";
 import github from "../assets/github.svg";
 import zuri from "../assets/zuri.svg";
 import I4G from "../assets/I4G.svg";
-
+import dots from '../assets/dots.svg';
 const Home = () => {
   return (
     <>
@@ -13,6 +13,7 @@ const Home = () => {
           <img className="profile_img" src={profile_img} alt="profile_img" />
           <div className="share-div">
             <img className="share-img" src={share} alt="share-svg" />
+            <img className="dots-img" src={dots} alt='dots'/>
           </div>
         </div>
         <div className="name">Olamide Deborah</div>

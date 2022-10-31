@@ -67,10 +67,13 @@ font-size: 18px;
 #twitter {
 font-weight: 500;
 }
+#slack {
+  display: none;
+}
 #btn__zuri {
 font-weight: 600;
 }
-#books {
+#pitch {
   font-weight: 600;
 }
 #book__python {

@@ -26,6 +26,9 @@ const Home = () => {
               Olamide Tehillah
             </a>
           </div>
+          <div id="slack">
+            Aniyikaye Olamide Mary
+          </div>
           <button className="link-background">
             <a
               href="https://training.zuri.team/"
@@ -50,7 +53,7 @@ const Home = () => {
             </a>
           </button>
           <button className="link-background">
-            <a href="https://background.zuri.team" className="links" id="books">
+            <a href="https://background.zuri.team" className="links" id="pitch">
               Background Check for Coders
             </a>
           </button>
@@ -66,10 +69,12 @@ const Home = () => {
           </button>
           <div className="logo-div">
             <div className="logo-section">
-              <a>
+              <a href="https://app.slack.com/client/T042F7V19Q8/D04919NJGL9/rimeto_profile/U048845K3PZ">
                 <img src={slack} alt="slack_img" className="slack" />
               </a>
+              <a href="https://github.com/chayilDeborah/zuri-webpage">
               <img src={github} alt="github_img" className="github" />
+              </a>
             </div>
           </div>
           <div className="footer">

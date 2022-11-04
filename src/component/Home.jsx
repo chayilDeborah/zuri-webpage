@@ -63,20 +63,14 @@ const Home = () => {
               href="https://books.zuri.team/design-rules"
               className="links"
               id="book__design"
-              hh
             >
               Design Books
             </a>
           </button>
           <button className="link-background">
-            <a
-              href="https://books.zuri.team/design-rules"
-              className="links"
-              id="contact"
-              hh
-            >
+            <div className="links" id="contact">
               Contact Me
-            </a>
+            </div>
           </button>
 
           <div className="logo-div">

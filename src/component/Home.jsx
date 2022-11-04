@@ -5,6 +5,7 @@ import github from "../assets/github.svg";
 import zuri from "../assets/zuri.svg";
 import I4G from "../assets/I4G.svg";
 import dots from '../assets/dots.svg';
+import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <>
@@ -67,11 +68,14 @@ const Home = () => {
               Design Books
             </a>
           </button>
+          <Link to='/contact'>
           <button className="link-background">
             <div className="links" id="contact">
               Contact Me
             </div>
           </button>
+          </Link>
+          
 
           <div className="logo-div">
             <div className="logo-section">

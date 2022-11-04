@@ -68,9 +68,9 @@ const Home = () => {
               Design Books
             </a>
           </button>
-          <Link to='/contact'>
+          <Link to='/contact' id="contact" >
           <button className="link-background">
-            <div className="links" id="contact">
+            <div className="links" style={{fontWeight: "600"}}>
               Contact Me
             </div>
           </button>

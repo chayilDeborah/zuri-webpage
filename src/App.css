@@ -202,7 +202,6 @@ text-decoration: none;
 /* Contact Page */
 .contact-wrap {
   padding-top: 64px;
-  border: 1px solid red;
   display: flex;
   justify-content: center;
 }
@@ -215,7 +214,6 @@ text-decoration: none;
 .contact-me {
   width: 720px;
   margin: 92px 0 48px 0;
-  border: 1px solid blue;
 
 }
 .title {
@@ -233,7 +231,6 @@ margin-top: 20px;
 }
 .contact-details {
   width: 720px;
-  border: 1px solid pink;
 }
 .last {
   display: flex;

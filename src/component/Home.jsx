@@ -6,6 +6,7 @@ import zuri from "../assets/zuri.svg";
 import I4G from "../assets/I4G.svg";
 import dots from '../assets/dots.svg';
 import { Link } from "react-router-dom";
+import Footer from "./Footer";
 const Home = () => {
   return (
     <>
@@ -96,6 +97,7 @@ const Home = () => {
               </div>
             </div>
           </div>
+          <Footer />
         </div>
       </div>
     </>

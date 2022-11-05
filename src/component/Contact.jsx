@@ -1,3 +1,5 @@
+import Footer from "./Footer";
+
 const Contact = () => {
   return (
     <>
@@ -29,7 +31,7 @@ const Contact = () => {
               <label for='email' className="label">Email</label><br />
               <input type='text' id='fname' placeholder='yourname@email.com'/>
               <label for='message' className="label">Message</label><br />
-              <textarea id="message" placeholder="Send me a message and I'll reply you as soon as possible..." className="textarea" required/>
+              <textarea id="message" placeholder="Send me a message and I'll reply you as soon as possible..." className="textarea"/>
               <div className="box">
                 <input type="checkbox" name="checkbox" className="check"/>
                 <label className="check-label">You agree to providing your data to Olamide who may contact you.</label>
@@ -41,6 +43,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 };

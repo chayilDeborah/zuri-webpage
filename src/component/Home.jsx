@@ -75,8 +75,6 @@ const Home = () => {
             </div>
           </button>
           </Link>
-          
-
           <div className="logo-div">
             <div className="logo-section">
               <a href="https://app.slack.com/client/T042F7V19Q8/D04919NJGL9/rimeto_profile/U048845K3PZ">
